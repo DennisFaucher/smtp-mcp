@@ -1,7 +1,10 @@
 # mcp-smtp
 
 An MCP (Model Context Protocol) server that enables Claude to send emails via SMTP.
+
 (Written with help from Claude)
+<img width="641" height="342" alt="image" src="https://github.com/user-attachments/assets/1218fc84-f8da-4e05-a401-602172581f4b" />
+
 
 ## Features
 
