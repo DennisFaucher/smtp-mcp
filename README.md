@@ -1,6 +1,7 @@
 # mcp-smtp
 
 An MCP (Model Context Protocol) server that enables Claude to send emails via SMTP.
+(Written with help from Claude)
 
 ## Features
 
@@ -74,7 +75,3 @@ Sends an email via the configured SMTP server.
 | `bcc` | string | No | BCC recipient(s), comma-separated |
 | `html` | boolean | No | Send body as HTML (default: `false`) |
 
-## Security Notes
-
-- `config.json` contains your SMTP credentials — do not commit it to version control.
-- Add `config.json` to your `.gitignore` if you plan to push this repo to GitHub.
